@@ -11,4 +11,4 @@ end
 
 array = [1,2,3,4,5]
 
-hello_t(array) {|n| n > 1 }
+hello_t(array){|n| n > 1 }
