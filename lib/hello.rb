@@ -9,4 +9,4 @@ def hello_t(array)
 end
 
 array = [1,2,3,4,5]
-my_find(array) {|n| n > 3 }
+hello_t(array) {|n| n > 3 }
