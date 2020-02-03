@@ -8,7 +8,12 @@ def hello_t(array)
       i = i + 1
   end
   array
+  
+  else
+    puts "Hey! No block was given!"
+  end
 end
+
 
 array = [1,2,3,4,5]
 
