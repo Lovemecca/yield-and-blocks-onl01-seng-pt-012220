@@ -1,6 +1,24 @@
-def hello_t
+list = ["ab", "cd", "ef"]
 
+def hello_t(array)
+  i = 0
+  while i < array.length
+    yield(array[i])
+    i = i + 1
+  end
 end
 
-# call your method here!
+my_each(list) {|i| puts "So I think #{i} is a piece of shit"}
 
+
+def hello_t(array)
+  i = 0
+  collection = []
+  while i < array.length
+    collection << yield(array[i])
+    i += 1
+  end
+  collection
+end
+
+hello(list) {|i| "Hello #{i} what's up?"}
